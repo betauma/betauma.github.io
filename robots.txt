@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://betauma.github.io/sitemap.xml
