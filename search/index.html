@@ -3,12 +3,13 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
-<title>Archives | Evan K.</title>
+<title>Search | Evan K.</title>
 <meta name=keywords content>
-<meta name=description content="Archives - Evan K.">
+<meta name=description content="Search - Evan K.">
 <meta name=author content="Evan K.">
-<link rel=canonical href=https://betauma.github.io/archives/>
-<link crossorigin=anonymous href=/assets/css/stylesheet.min.css rel="preload stylesheet" as=style>
+<link rel=canonical href=https://betauma.github.io/search/>
+<link crossorigin=anonymous href=/assets/css/stylesheet.min.css rel="preload stylesheet" as=style><link crossorigin=anonymous rel=preload as=fetch href=../index.json>
+<script defer crossorigin=anonymous src=/assets/js/search.min.js></script>
 <link rel=icon href=https://betauma.github.io/favicon.ico>
 <link rel=icon type=image/png sizes=16x16 href=https://betauma.github.io/favicon-16x16.png>
 <link rel=icon type=image/png sizes=32x32 href=https://betauma.github.io/favicon-32x32.png>
@@ -17,16 +18,16 @@
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.87.0">
-<meta property="og:title" content="Archives">
+<meta property="og:title" content="Search">
 <meta property="og:description" content>
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://betauma.github.io/archives/"><meta property="article:section" content="posts">
+<meta property="og:url" content="https://betauma.github.io/search/"><meta property="article:section" content="posts">
 <meta property="og:site_name" content="Merak">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Archives">
+<meta name=twitter:title content="Search">
 <meta name=twitter:description content>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://betauma.github.io/posts/"},{"@type":"ListItem","position":2,"name":"Archives","item":"https://betauma.github.io/archives/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Archives","name":"Archives","description":"","keywords":[],"articleBody":"","wordCount":"0","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"0001-01-01T00:00:00Z","author":{"@type":"Person","name":"Evan K."},"mainEntityOfPage":{"@type":"WebPage","@id":"https://betauma.github.io/archives/"},"publisher":{"@type":"Organization","name":"Evan K.","logo":{"@type":"ImageObject","url":"https://betauma.github.io/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://betauma.github.io/posts/"},{"@type":"ListItem","position":2,"name":"Search","item":"https://betauma.github.io/search/"}]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Search","name":"Search","description":"","keywords":[],"articleBody":"","wordCount":"0","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"0001-01-01T00:00:00Z","author":{"@type":"Person","name":"Evan K."},"mainEntityOfPage":{"@type":"WebPage","@id":"https://betauma.github.io/search/"},"publisher":{"@type":"Organization","name":"Evan K.","logo":{"@type":"ImageObject","url":"https://betauma.github.io/favicon.ico"}}}</script>
 </head>
 <body class=list id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -46,7 +47,7 @@
 <ul id=menu>
 <li>
 <a href=https://betauma.github.io/archives/ title=archives>
-<span class=active>archives</span>
+<span>archives</span>
 </a>
 </li>
 <li>
@@ -61,7 +62,7 @@
 </li>
 <li>
 <a href=https://betauma.github.io/search/ title="search (Alt + /)" accesskey=/>
-<span>search</span>
+<span class=active>search</span>
 </a>
 </li>
 </ul>
@@ -69,22 +70,13 @@
 </header>
 <main class=main>
 <header class=page-header>
-<h1>Archives</h1>
+<h1>Search&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+</h1>
+<div class=post-meta></div>
 </header>
-<div class=archive-year>
-<h2 class=archive-year-header>2021<sup class=archive-count>&nbsp;&nbsp;1</sup>
-</h2>
-<div class=archive-month>
-<h3 class=archive-month-header>August<sup class=archive-count>&nbsp;&nbsp;1</sup></h3>
-<div class=archive-posts>
-<div class=archive-entry>
-<h3 class=archive-entry-title>Hello World
-</h3>
-<div class=archive-meta>2021-08-27&nbsp;·&nbsp;Evan K.</div>
-<a class=entry-link aria-label="post link to Hello World" href=https://betauma.github.io/2021/08/hello-world/></a>
-</div>
-</div>
-</div>
+<div id=searchbox>
+<input id=searchInput autofocus placeholder="Search ↵" aria-label=search type=search>
+<ul id=searchResults aria-label="search results"></ul>
 </div>
 </main>
 <footer class=footer>
